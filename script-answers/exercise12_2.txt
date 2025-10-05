@@ -1,0 +1,39 @@
+Script started on 2025-10-05 13:18:53+03:00 [TERM="foot" TTY="/dev/pts/0" COLUMNS="158" LINES="102"]
+[?2004h[0;32m~/code/part12-containers-applications[0m (main %=) $ [7mdocker container run -it ubuntu bash[27mdocker container run -it ubuntu bash
+[?2004lEmulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/00-shortnames.conf)
+Trying to pull docker.io/library/ubuntu:latest...
+Getting image source signatures
+Copying blob a1a21c96bc16 [--------------------------------------] 0.0b / 28.3MiB
+Copying blob a1a21c96bc16 [--------------------------------------] 0.0b / 28.3MiB | 0.0 b/s
+[2A[JCopying blob a1a21c96bc16 [--------------------------------------] 0.0b / 28.3MiB
+Copying blob a1a21c96bc16 [--------------------------------------] 0.0b / 28.3MiB | 0.0 b/s
+[2A[JCopying blob a1a21c96bc16 [--------------------------------------] 284.0KiB / 28.3MiB | 8.3 MiB/s
+[1A[JCopying blob a1a21c96bc16 [==>-----------------------------------] 2.3MiB / 28.3MiB | 24.6 MiB/s
+[1A[JCopying blob a1a21c96bc16 [======>-------------------------------] 5.0MiB / 28.3MiB | 24.0 MiB/s
+[1A[JCopying blob a1a21c96bc16 [=========>----------------------------] 7.5MiB / 28.3MiB | 29.0 MiB/s
+[1A[JCopying blob a1a21c96bc16 [=============>------------------------] 10.2MiB / 28.3MiB | 21.4 MiB/s
+[1A[JCopying blob a1a21c96bc16 [================>---------------------] 12.8MiB / 28.3MiB | 21.6 MiB/s
+[1A[JCopying blob a1a21c96bc16 [====================>-----------------] 15.4MiB / 28.3MiB | 16.5 MiB/s
+[1A[JCopying blob a1a21c96bc16 [=======================>--------------] 18.0MiB / 28.3MiB | 20.0 MiB/s
+[1A[JCopying blob a1a21c96bc16 [===========================>----------] 20.6MiB / 28.3MiB | 23.1 MiB/s
+[1A[JCopying blob a1a21c96bc16 [==============================>-------] 23.3MiB / 28.3MiB | 21.9 MiB/s
+[1A[JCopying blob a1a21c96bc16 [=================================>----] 25.7MiB / 28.3MiB | 11.6 MiB/s
+[1A[JCopying blob a1a21c96bc16 [=====================================>] 28.3MiB / 28.3MiB | 18.9 MiB/s
+[1A[JCopying blob a1a21c96bc16 done   | 
+[1A[JCopying blob a1a21c96bc16 done   | 
+[1A[JCopying blob a1a21c96bc16 done   | 
+[1A[JCopying blob a1a21c96bc16 done   | 
+[1A[JCopying blob a1a21c96bc16 done   | 
+Copying config ce8f79aecc done   | 
+[1A[JCopying config ce8f79aecc done   | 
+[1A[JCopying config ce8f79aecc done   | 
+Writing manifest to image destination
+[?2004h]0;root@7ddeb77711fa: /root@7ddeb77711fa:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@7ddeb77711fa: /root@7ddeb77711fa:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@7ddeb77711fa: /root@7ddeb77711fa:/# [Kexit
+[?2004lexit
+[?2004h[0;32m~/code/part12-containers-applications[0m (main %=) $ [?2004l
+exit
+
+Script done on 2025-10-05 13:20:35+03:00 [COMMAND_EXIT_CODE="0"]
